@@ -32,6 +32,7 @@ h1 {
   margin: 0;
   font-size: 28px;
   letter-spacing: 2px;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   color: black;
 }
@@ -53,6 +54,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #000000;
+  font-family: 'Genos', sans-serif;
   padding: 5px;
   font-size: 20px;
   transition: color 0.3s ease;
