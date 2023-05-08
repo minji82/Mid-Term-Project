@@ -7,6 +7,7 @@ body {
 
 /* 헤더 스타일링 */
 header {
+  border-bottom: 3px solid #000000;
   position: fixed;
   top: 0;
   left: 0;
@@ -15,6 +16,8 @@ header {
   height: 50px;
   z-index: 999;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 20px;
   background-color: #ffffff;
   color: #fff;
