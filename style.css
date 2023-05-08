@@ -70,6 +70,7 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
+
 /* 섹션 스타일 */
 section {
     height: 100vh;
@@ -82,14 +83,21 @@ section {
   /* 홈 섹션 스타일 */
 #home-section {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f2f2f2;
     text-align: center;
     background: url("https://github.com/minji82/Mid-Term-Project/blob/master/%ED%99%88%20%EB%B0%B0%EA%B2%BD.png?raw=true") no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
   }
-  
 
+
+  #home-section h1 {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
   .hero-text {
     text-align: center;
     max-width: 600px;
@@ -100,11 +108,34 @@ section {
     text-align: center;
     font-size: 80px;
     font-weight: 900;
+    animation: scaleIn 2s forwards;
     color: #121212;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   
   .hero-text p {
     text-align: center;
     font-size: 20px;
     color: #6a6a6a;
+    opacity: 0;
+    animation: fadeIn 2s 1s forwards;
   }
+  
+  @keyframes scaleIn {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
