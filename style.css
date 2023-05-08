@@ -139,7 +139,7 @@ section {
     }
   }
 
-  /* About 섹션 스타일 */
+ /* About 섹션 스타일 */
 #about-section {
     text-align: center;
     padding: 50px 0;
@@ -157,19 +157,25 @@ section {
     margin-right: 40px;
     overflow: hidden;
     border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
   }
   
-  
+  .profile-image-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
   
   .about-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
     transition: transform 0.3s ease;
   }
   
-
+  .about-img:hover {
+    transform: scale(1.1);
+  }
   
   .about-content {
     text-align: left;
@@ -180,10 +186,12 @@ section {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
+    transition: box-shadow 0.3s ease;
   }
   
-
+  .box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
   
   .box p {
     margin: 15px 0;
@@ -192,4 +200,3 @@ section {
   .box strong {
     font-weight: bold;
   }
-  
