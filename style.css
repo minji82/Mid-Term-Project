@@ -253,6 +253,119 @@ section {
   }
 
 
+  /* Hobby 섹션 스타일 */
+  #hobby-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    }
+    
+    .portfolio-item {
+    position: relative;
+    page-break-inside: avoid;
+    }
+    
+    .portfolio-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    }
+    
+    .portfolio-item h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    .video-container {
+    text-align: center;
+    }
+    
+    .portfolio-item img {
+    max-width: 300px;
+    border-radius: 50%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    }
+    
+    .portfolio-item img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+    
+    .video-container iframe {
+    width: 560px;
+    height: 315px;
+    }
+    
+    .nail-art h3,
+    .my-favorite-song h3 {
+    border-bottom: 1px solid #000;
+    }
+    
+    .box {
+    display: inline-block;
+    padding: 20px;
+    text-align: left;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    }
+    
+    .box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+    
+    .about-img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    }
+    
+    .about-img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+    
+    /* Slick 슬라이더 스타일 */
+    .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    padding: 10px;
+    }
+    
+    .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .slick-slide {
+    position: relative;
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    }
+    
+    .slick-slide img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+      
+    
+
+   
+ 
+   
+      
       
       
   
