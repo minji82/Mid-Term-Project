@@ -252,3 +252,51 @@ section {
     margin: 0;
   }
 
+  /* Hobby 섹션 스타일 */
+
+#hobby-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .portfolio-item {
+    position: relative;
+    page-break-inside: avoid;
+  }
+  
+
+  
+  .portfolio-item h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .video-container {
+    text-align: center;
+  }
+  
+  .portfolio-item img {
+    max-width: 300px;
+    border-radius: 50%;
+    height: auto;
+  }
+  
+  
+  .video-container iframe {
+    width: 560px;
+    height: 315px;
+  }
+  
+
+  
+  
+  .about-img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+  
