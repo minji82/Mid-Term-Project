@@ -92,14 +92,45 @@
     </div>
 </section>
 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+
 <section id="hobby-section" class="content-section">
-    <h2>My Hobby</h2>
-    <div class="section-content">
-        <div class="portfolio-item">
-            <h3>Nail Art</h3>
-            <img src="hobby1.jpg" alt="Nail Art">
-            <p>셀프 네일아트를 하는 것이 취미이고 네일샵에서 받는 것도 좋아합니다.</p>
-        </div>
+  <h2>My Hobby</h2>
+  <div class="section-content">
+    <div class="portfolio-slider">
+      <div class="portfolio-item">
+        <h3>Nail Art</h3>
+        <img src="hobby1.jpg" alt="Nail Art">
+        <p>셀프 네일아트를 하는 것이 취미이고 네일샵에서 받는 것도 좋아합니다.</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Photography</h3>
+        <img src="hobby2.png" alt="Photography">
+        <p>카메라를 이용해 자연 풍경이나 사람들을 찍는 것을 좋아합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.portfolio-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      dots: true,
+      arrows: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  });
+</script>
+
         <div class="portfolio-item">
             <h3>My Favorite Song</h3>
             <div class="video-container">
